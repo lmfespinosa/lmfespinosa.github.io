@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Sex</th>
+            </tr>
+            <tr v-for="dato in datos">
+                <td>{{ dato.name }}</td>
+                <td>{{ dato.age }}</td>
+                <td>{{ dato.sex }}</td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios@0.17.1/dist/axios.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data:{
+                datos: []
+            },
+            methods: {
+                getDatos: function() {
+                    axios.get('data.json'). then(response => {
+                        this.datos = response.data
+                    })
+                }
+            },
+                mounted: function (){
+                    this.getDatos()
+                }
+        })
+    </script>
+</body>
+</html>

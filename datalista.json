@@ -1,0 +1,15 @@
+[
+    {
+        "type": "carousel-item active",
+        "title": "We are professional",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "urlimage": "background-image: url('img/intro-carousel/1.jpg');"
+    },
+    {
+        "type": "carousel-item",
+        "title": "We are professional2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "urlimage": "background-image: url('img/intro-carousel/2.jpg');"
+    }
+    
+]
