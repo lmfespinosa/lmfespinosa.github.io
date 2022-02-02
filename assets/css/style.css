@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   /*opacity: 0.5;*/
   background-image: url("../img/sw.png");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 #header .profile img {
   margin: 15px auto;
