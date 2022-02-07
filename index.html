@@ -1,3 +1,12 @@
+<?php 
+session_start();
+	require('languages.php'); 
+
+	$lang = null;
+	if ( isset($_GET['lang']) ){
+		$lang = $_GET['lang'];
+	}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -58,12 +67,14 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span><?php echo __('Inicio', $lang) ?></span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span><?php echo __('Contacto', $lang) ?></span></a></li>
+          <li><a href="index.html"><img src="assets/img/flags/espana.png"  width="30" height="30" alt="español"/></a></li>
+          <li><a href="index.html?lang=en"><img src="assets/img/flags/inglaterra.png"  width="30" height="30" alt="english"/></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
