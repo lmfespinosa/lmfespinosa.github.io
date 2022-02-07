@@ -26,7 +26,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <script src="language.js"  type="text/javascript"></script>
+  <script type="text/javascript" src="assets/js/rjs/R.js"></script>
+  <script type="text/javascript" src="assets/js/tr/multilang.js"></script>
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.7.0
@@ -59,7 +60,7 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span class="ES">Inicio</span><span class="ENG">Home</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span id="test2" class="multilang">Inicio</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
@@ -67,6 +68,7 @@
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span><?php echo __('Contacto', $lang) ?></span></a></li>
           <li><a href="index.html"><img src="assets/img/flags/espana.png"  width="30" height="30" alt="español"/></a></li>
           <li><a href="index.html?lang=en"><img src="assets/img/flags/inglaterra.png"  width="30" height="30" alt="english"/></a></li>
+          <li><div class="form-select select"><select id="selectLanguage" onChange="selectedLanguageChanged();"></select></div></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
