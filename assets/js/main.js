@@ -4,6 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+/* Initialization on page load */
+window.onload = function() {
+  initLanguages();
+}
+
 (function() {
   "use strict";
 
