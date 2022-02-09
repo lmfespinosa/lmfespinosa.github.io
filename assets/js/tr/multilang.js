@@ -21,7 +21,7 @@
  */
  
 // >-- Translations to be loaded .. 
-var langfiles = ['en_GB', 'de_DE'];
+var langfiles = ['en_GB', 'es_ES'];
 
 // >-- Initial setup ..
 var langdirectory = 'tr/';           // The translation files directory
