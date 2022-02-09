@@ -5,5 +5,5 @@ R.registerLocale('es-ES',
   'test1': "Español",
   'test2': "Ich bin ein weiterer Text mit einem Text %s",
   'ghlink': "über",
-  'Home': "Inicio"
+  'homw': "Inicio"
 });

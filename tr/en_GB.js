@@ -5,5 +5,5 @@ R.registerLocale('en-GB',
   'test1': "I am a string with a number %i",
   'test2': "I am another string with a string %s",
   'ghlink': "about",
-  'Home': "Home"
+  'home': "Home"
 });
