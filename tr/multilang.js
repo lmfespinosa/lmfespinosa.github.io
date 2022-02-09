@@ -79,7 +79,11 @@ function initLanguageOptions() {
   if( select != null ) {
     var cnt = 0;
     for( var language of langfiles ) {
-      option = document.createElement('option');
+      path = "assets/img/flags/"
+      name = language.replace('_','-');
+      extension = ".png"
+      img = path.concat(name,extension)
+      option = document.createElement('option', { 'data-thumbnail' : img });
       option.value = option.text = option.id = language.replace('_','-');
       select.add(option);
       cnt++;
