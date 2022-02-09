@@ -77,3 +77,6 @@
   select::-ms-expand {
     display: none;
   }
+
+select#gender option[value="es-ES"]   { background-image:url(../../assets/img/flags/ES.png);   }
+select#gender option[value="en-GB"] { background-image:url(../../assets/img/flags/ENG.png); }
