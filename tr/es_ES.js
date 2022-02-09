@@ -1,5 +1,5 @@
 // German translation
-R.registerLocale('de-DE', 
+R.registerLocale('es-ES', 
 {
   'subtitle': "Das ist ein Beispiel zur Demonstration lokaler HTML Internationalisierung mit <a href='https://github.com/keithamus/R.js' target='_blank'>R.js</a>",
   'test1': "Español",
