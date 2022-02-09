@@ -2,5 +2,5 @@
 R.registerLocale('langs', 
 { 
   'en-GB': "English",
-  'de-DE': "German"
+  'es-ES': "Español"
 });
