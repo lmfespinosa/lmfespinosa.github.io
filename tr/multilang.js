@@ -83,9 +83,10 @@ function initLanguageOptions() {
       name = language.replace('_','-');
       extension = ".png"
       img = path.concat(name,extension)
-      option = document.createElement('option', { 'data-thumbnail' : img });
+      option = document.createElement('option');
       option.value = option.text = option.id = language.replace('_','-');
       select.add(option);
+      document.getElementsById(language.replace('_','-'))[0].setAttribute("data-thumbnail", img);
       cnt++;
     }
     
