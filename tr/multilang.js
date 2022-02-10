@@ -86,7 +86,7 @@ function initLanguageOptions() {
       option = document.createElement('option');
       option.value = option.text = option.id = language.replace('_','-');
       select.add(option);
-      document.getElementsById(language.replace('_','-'))[0].setAttribute("data-thumbnail", img);
+      document.getElementById(language.replace('_','-'))[0].setAttribute("data-thumbnail", img);
       cnt++;
     }
     
