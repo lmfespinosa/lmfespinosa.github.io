@@ -1,6 +1,6 @@
 /* The language names */
 R.registerLocale('langs', 
 { 
-  'en-GB': "",
-  'es-ES': ""
+  'en-GB': "english",
+  'es-ES': "spanish"
 });
