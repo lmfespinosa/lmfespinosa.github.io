@@ -79,7 +79,7 @@ function initLanguageOptions() {
   if( select != null ) {
     var cnt = 0;
     for( var language of langfiles ) {
-      path = "../assets/img/flags/"
+      path = "assets/img/flags/"
       name = language.replace('_','-');
       extension = ".png"
       img = path.concat(name,extension)
