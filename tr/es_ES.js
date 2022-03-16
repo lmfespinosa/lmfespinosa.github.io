@@ -5,10 +5,10 @@ R.registerLocale('es-ES',
   'test1': "Español",
   'test2': "Ich bin ein weiterer Text mit einem Text %s",
   'ghlink': "über",
-  'home': "Inicio",
-  'contact': "Contacto",
-  'services': "Servicios",
-  'about': "Sobre mi",
-  'resume': "Resumen",
-  'portfolio': "Portfolio"
+  'menuhome': "Inicio",
+  'menucontact': "Contacto",
+  'menuservices': "Servicios",
+  'menuabout': "Sobre mi",
+  'menuresume': "Resumen",
+  'menuportfolio': "Portfolio"
 });

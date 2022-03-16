@@ -5,10 +5,10 @@ R.registerLocale('en-GB',
   'test1': "I am a string with a number %i",
   'test2': "I am another string with a string %s",
   'ghlink': "about",
-  'home': "Home",
-  'contact': "Contact",
-  'services': "Services",
-  'about': "About",
-  'resume': "Resume",
-  'portfolio': "Portfolio"
+  'menuhome': "Home",
+  'menucontact': "Contact",
+  'menuservices': "Services",
+  'menuabout': "About",
+  'menuresume': "Resume",
+  'menuportfolio': "Portfolio"
 });
