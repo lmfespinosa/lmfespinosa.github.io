@@ -9,5 +9,6 @@ R.registerLocale('en-GB',
   'contact': "Contact",
   'services': "Services",
   'about': "About",
-  'resume': "Resume"
+  'resume': "Resume",
+  'porfolio': "Porfolio"
 });

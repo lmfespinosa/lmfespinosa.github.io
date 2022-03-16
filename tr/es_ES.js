@@ -9,5 +9,6 @@ R.registerLocale('es-ES',
   'contact': "Contacto",
   'services': "Servicios",
   'about': "Sobre mi",
-  'resume': "Resumen"
+  'resume': "Resumen",
+  'porfolio': "Porfolio"
 });
