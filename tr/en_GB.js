@@ -10,5 +10,5 @@ R.registerLocale('en-GB',
   'services': "Services",
   'about': "About",
   'resume': "Resume",
-  'porfolio': "Porfolio"
+  'portfolio': "Portfolio"
 });
